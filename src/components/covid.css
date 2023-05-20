@@ -1,6 +1,6 @@
 body{
   background-color: black;
-  border: 5px solid plum;
+  border: 5px solid red;
 }
 
 @keyframes moveWord {
@@ -32,11 +32,49 @@ h2{
   text-align: center;
 }
 
+.recovered{
+  background-image: url("Recovered.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.india{
+  background-image: url("Flag2.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.confirmed{
+  background-image: url("condirmed.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.death{
+  background-image: url("death.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.updated{
+  background-image: url("updated.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.active{
+  background-image: url("active.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
 .card{
   
   width: 25%;
   height: auto;
   background-color: plum;
+ 
   margin-right: 60px;
   margin-top: 50px;
   margin-bottom: 40px;
@@ -53,7 +91,7 @@ li {
 }
 ul li {
   transition: transform 0.3s ease-in-out; /* Define the transition property with desired duration and easing */
-  border: 5px solid plum;
+  
 }
 
 ul li:hover {
@@ -65,8 +103,9 @@ ul li:hover {
 
 .card__inner {
     /* inside box the content*/
-    color: black;
+    color: white;
     display: flex;
+    
     flex-direction: column; /* so that content can be below each other or column wise*/
     align-items: center;
     font-family:sans-serif;
