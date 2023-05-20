@@ -41,7 +41,7 @@ const Covid = () => {
       <h2>COVID-19 CORONAVIRUS TRACKER </h2>
       <div className="card-container">
       <ul>
-        <li className="card">
+        <li className="card india">
             <div className="card__main">
             <div className="card__inner">
                 <p className="card__name"><span>OUR</span> COUNTRY</p>
@@ -49,7 +49,7 @@ const Covid = () => {
                 </div>  
             </div>
         </li> 
-        <li className="card">
+        <li className="card recovered">
             <div className="card__main">
             <div className="card__inner">
                 <p className="card__name"><span>TOTAL</span> RECOVERED</p>
@@ -57,7 +57,7 @@ const Covid = () => {
                 </div>  
             </div>
         </li>
-        <li className="card">
+        <li className="card confirmed">
             <div className="card__main">
             <div className="card__inner">
                 <p className="card__name"><span>TOTAL</span> CONFIRMED</p>
@@ -65,7 +65,7 @@ const Covid = () => {
                 </div>  
             </div>
           </li>
-        <li className="card">
+        <li className="card death">
             <div className="card__main">
             <div className="card__inner">
                 <p className="card__name"><span>TOTAL</span> DEATH</p>
@@ -73,7 +73,7 @@ const Covid = () => {
                 </div>  
             </div>
         </li>
-        <li className="card">
+        <li className="card active">
             <div className="card__main">
             <div className="card__inner">
                 <p className="card__name"><span>TOTAL</span> ACTIVE</p>
@@ -81,7 +81,7 @@ const Covid = () => {
                 </div>  
             </div>
         </li>
-        <li className="card">
+        <li className="card updated">
             <div className="card__main">
             <div className="card__inner"> 
                 <p className="card__name"><span>LAST</span> UPDATED</p>
